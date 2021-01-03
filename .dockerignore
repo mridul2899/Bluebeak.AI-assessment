@@ -1,0 +1,6 @@
+## R files ##
+.Rhistory
+
+## git files
+.git
+.gitignore
