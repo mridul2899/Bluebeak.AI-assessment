@@ -26,5 +26,8 @@ COPY src /bluebeakai-assessment/src
 # Copy the bash file and the CSV file
 COPY test /bluebeakai-assessment/test
 
+# Expose port
+EXPOSE 8080
+
 WORKDIR /bluebeakai-assessment/src
 ENTRYPOINT ["Rscript","main.R"]
