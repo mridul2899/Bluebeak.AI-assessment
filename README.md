@@ -1,5 +1,4 @@
 # Bluebeak.ai-assessment
----
 
 ## Table of Contents
 1. Project Description
