@@ -1,4 +1,4 @@
-source("function.R")
+source("function_r6.R")
 
 #* Upload and analyze the uploaded data
 #* @param project Directory for the files to go into
