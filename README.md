@@ -17,17 +17,23 @@ This project demonstrates the basic implementation of an API created with [plumb
 ## Installation Guide
 The project can be installed on a [Docker](https://www.docker.com/) container by building the project. As of now, the project has been built and tested on Ubuntu 18.04.
 The steps for building and running the project are as follows:
-1. Clone the Git Repository
+1. Install Docker if not already installed
+```console
+foo@bar:~$ curl -fsSL https://get.docker.com -o get-docker.sh
+foo@bar:~$ chmod +x get-docker.sh
+foo@bar:~$ ./get-docker.sh
+```
+2. Clone the Git Repository
 ```console
 foo@bar:~$ git clone https://github.com/mridul2899/Bluebeak.AI-assessment.git
 ```
-2. Enter into the repository and give permissions to bash script for building the project. Then run the script.
+3. Enter into the repository and give permissions to bash script for building the project. Then run the script.
 ```console
 foo@bar:~$ cd Bluebeak.AI-assessment
 foo@bar:~/Bluebeak.AI-assessment$ chmod +x build_run.sh
 foo@bar:~/Bluebeak.AI-assessment$ ./build_run.sh
 ```
-3. Once the build, the bash script will also run the docker container. Now, we will need to run the testing script which will be run from the host. Now open another terminal to run the testing script.
+4. Once the build, the bash script will also run the docker container. Now, we will need to run the testing script which will be run from the host. Now open another terminal to run the testing script.
 ```console
 foo@bar:~/Bluebeak.AI-assessment$ cd test
 foo@bar:~/Bluebeak.AI-assessment/test$ chmod +x bench_from_host.sh
